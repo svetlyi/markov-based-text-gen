@@ -1,0 +1,23 @@
+{
+    "name": "svetlyi/markov-based-text-gen",
+    "description": "Fake text generator based on Markov chain",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TextGen\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TextGen\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
